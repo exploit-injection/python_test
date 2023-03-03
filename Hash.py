@@ -3,7 +3,7 @@ import hashlib
 
 # Функция для получения хеш-суммы файла
 def hash_file(file_name):
-    h = hashlib.sha1()  # Создание объекта хеша
+    h = hashlib.sha256()  # Создание объекта хеша
 
     #  Открытие файла для чтения в двоичном режиме
     with open(file_name, 'rb') as file:
