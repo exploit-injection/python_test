@@ -6,4 +6,4 @@ myfile = open(inputfile, mode='r', encoding='latin_1')
 # print(myfile.read())
 
 for line in myfile:
-    print("Student: " + line)
+    print("Student: " + line.strip())
