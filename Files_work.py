@@ -4,6 +4,6 @@ inputfile = "../name.txt"
 myfile = open(inputfile, mode='r', encoding='latin_1')
 # Чтение файла, который был указан
 # print(myfile.read())
-
-for line in myfile:
-    print("Student: " + line.strip())
+# Вывод студентов с номерами строк по порядку, начиная с 1
+for num, line in enumerate(myfile, 1):
+    print("Student № " + str(num) + ": " + line.strip())
