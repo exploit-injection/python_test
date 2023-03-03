@@ -4,4 +4,3 @@ inputfile = "../name.txt"
 myfile = open(inputfile, mode='r', encoding='latin_1')
 # Чтение файла, который был указан
 print(myfile.read())
-print(myfile.read())
