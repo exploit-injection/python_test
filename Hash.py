@@ -15,5 +15,5 @@ def hash_file(file_name):
     return h.hexdigest()
 
 
-message = hash_file("../name.txt")
+message = hash_file("/home/spi_729-1/Документы/Test/test1.txt")
 print(message)
